@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -32,34 +32,39 @@
                 <input type="radio" name="gender" value="female"> Female<br>
                 <label for="Age">Age:</label> <input type="text"><br>
                 <label for="birth">Date Of Birth:</label> <input type="date" name="bday"><br>
-                <label for="color">Favorite Color:</label><input type="color" name="bday"><br>
-                <label for="country">Which Country:</label><input type="text"><br>
-                <div>
+                <label for="color">Favorite Color:</label><input type="color" name="color"><br>
+                <label for="country">Which Country:<input type="country" name="bday"><br>
+                    <br>
+                    <div>
         </fieldset>
         <br>
         <fieldset>
             <legend>Your Indicators</legend>
             <div class="center">
-                <label for="country">Height:<span id="short">Short</span><input type="range" min="1" max="100" value="50"><span
-                        id="short">Tall</span><br>
-                    <label for="country">Height:<span>Poor</span><input type="range" min="1" max="100" value="50"><span
-                            id="rich">Rich</span><br>
-                        <div>
+                <label for="country">Height:</label><span id="short">Short</span><input type="range" min="1" max="100"
+                    value="50"><span id="tall">Tall</span><br>
+                <br>
+                <label for="country">Salary:</label><span id='poor'>Poor</span><input type="range" min="1" max="100"
+                    value="50"><span id="rich">Rich</span><br>
+                <div>
         </fieldset>
         <br>
         <fieldset>
             <legend>Your Contact Information</legend>
             <div class="center">
-                <label for="country">Email:</label> <input type="text"><br>
-                <label for="country">Mobile:</label> <input type="text"><br>
+                <label for="Email">Email:</label> <input type="text"><br>
+                <label for="Mobile">Mobile:</label> <input type="text"><br>
 
-                <label for="country">Address:</label> <textarea></textarea><br>
+                <label for="country">Address:</label> <textarea id="Address" name="subject" placeholder="Write something.."
+                    style="height:20px"></textarea>
+                <br>
             </div>
-            <label for="country">Method To Contact you:</label> <input type="radio" name="email">Email <input type="radio"
+            <br>
+            <label for="contact">Method To Contact you:</label> <input type="radio" name="email">Email <input type="radio"
                 name="email">WhatsApp
             <input type="radio" name="email">in-app chat
         </fieldset>
-        <input type="submit" value="Submit">
+        <button type="submit" value="Submit">Submit</button>
     </form>
 
 </body>
