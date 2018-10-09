@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+fieldset {
+  border: 10px solid yellow;
+  background-color: #ffff004f;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+.center {
+  text-align: center;
+}
+#short {
+  padding: 10px;
+  background-color: aquamarine;
+}
